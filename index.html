@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LINES QQ 寵物美容</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+  <header class="hero page">
+    <div class="hero-card">
+      <div class="brand-area">
+        <div class="logo-row">
+          <!-- 圖片請上傳到 StackBlitz 的 assets 資料夾，檔名可依需要修改 -->
+          <img class="logo-img" src="assets/logo.png" alt="LINES QQ Logo" />
+          <h1 class="brand-title">LINES QQ</h1>
+        </div>
+        <div class="brand-subtitle">寵物美容・溫柔照護・預約制服務</div>
+      </div>
+
+      <div class="pets-area">
+        <img class="pets-img" src="assets/pets.png" alt="三隻寵物" />
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="nav-section">
+      <div class="nav-grid">
+        <button class="tab-button tab-manager active" data-tab="manager">
+          店長介紹
+          <span>Manager Introduction</span>
+        </button>
+
+        <button class="tab-button tab-price" data-tab="price">
+          服務項目與價格
+          <span>Services & Price</span>
+        </button>
+
+        <button class="tab-button tab-room" data-tab="room">
+          室內環境
+          <span>Indoor Environment</span>
+        </button>
+
+        <button class="tab-button tab-contact" data-tab="contact">
+          店面位置與聯絡方式
+          <span>Location & Contact</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="content-section">
+      <!-- 店長介紹 -->
+      <article id="manager" class="content-card active">
+        <h2 class="section-title">店長介紹</h2>
+
+        <div class="manager-layout">
+          <div class="profile-photo">
+            <!-- 這張可換成店長或 QQ 說明書圖片，也可以先不放 -->
+            <img src="assets/manager.png" alt="店長介紹圖片" />
+          </div>
+
+          <div class="info-box">
+            <h3>QQ 店長</h3>
+            <p>
+              這裡可以放店長介紹文字。因為現在已經改成 HTML 文字，
+              之後你可以直接在這裡修改內容，不需要重新做圖片。
+            </p>
+            <p>
+              例如：服務理念、寵物美容經驗、照護方式、預約注意事項，
+              都可以直接寫在這個區塊。
+            </p>
+
+            <div class="tag-list">
+              <span class="tag">溫柔照護</span>
+              <span class="tag">預約制</span>
+              <span class="tag">小型犬友善</span>
+              <span class="tag">貓咪美容</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 服務項目與價格 -->
+      <article id="price" class="content-card">
+        <h2 class="section-title">服務項目與價格</h2>
+
+        <table class="price-table">
+          <thead>
+            <tr>
+              <th>服務項目</th>
+              <th>小型犬</th>
+              <th>中型犬</th>
+              <th>貓咪</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>基礎洗澡</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+            </tr>
+            <tr>
+              <td>美容修剪</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+            </tr>
+            <tr>
+              <td>指甲修剪</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+            </tr>
+            <tr>
+              <td>耳朵清潔</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+              <td>請填價格</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="price-note">
+          <strong>備註：</strong>
+          價格會依寵物體型、毛量、毛況、配合度調整。實際價格請以現場評估或預約溝通為準。
+        </div>
+      </article>
+
+      <!-- 室內環境 -->
+      <article id="room" class="content-card">
+        <h2 class="section-title">室內環境</h2>
+
+        <div class="empty-room">
+          <div>
+            <p>這裡先預留室內環境照片區。</p>
+            <p>之後可以放美容空間、洗澡區、等待區等照片。</p>
+          </div>
+        </div>
+      </article>
+
+      <!-- 店面位置與聯絡方式 -->
+      <article id="contact" class="content-card">
+        <h2 class="section-title">店面位置與聯絡方式</h2>
+
+        <div class="contact-grid">
+          <div class="contact-list">
+            <div class="contact-item">
+              <div class="contact-icon">☎</div>
+              <div>
+                <strong>電話</strong><br />
+                0900-000-000
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div>
+                <strong>地址</strong><br />
+                這裡請填寫店面地址
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">💬</div>
+              <div>
+                <strong>LINE</strong><br />
+                @linesqq
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">◎</div>
+              <div>
+                <strong>Instagram</strong><br />
+                @linesqq
+              </div>
+            </div>
+          </div>
+
+          <div class="qr-area">
+            <div class="qr-card">
+              <img src="assets/line-qrcode.png" alt="LINE QR Code" />
+              <p>LINE</p>
+            </div>
+
+            <div class="qr-card">
+              <img src="assets/ig-qrcode.png" alt="Instagram QR Code" />
+              <p>Instagram</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer page">
+    <div>
+      <strong>LINES QQ 寵物美容</strong><br />
+      溫柔照護每一位毛孩，歡迎提前預約。
+    </div>
+    <div>
+      電話：0900-000-000<br />
+      地址：這裡請填寫店面地址<br />
+      LINE：@linesqq　IG：@linesqq
+    </div>
+  </footer>
+
+  <script>
+    const buttons = document.querySelectorAll(".tab-button");
+    const cards = document.querySelectorAll(".content-card");
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const targetId = button.dataset.tab;
+
+        buttons.forEach((btn) => btn.classList.remove("active"));
+        cards.forEach((card) => card.classList.remove("active"));
+
+        button.classList.add("active");
+        document.getElementById(targetId).classList.add("active");
+      });
+    });
+  </script>
+</body>
+</html>
