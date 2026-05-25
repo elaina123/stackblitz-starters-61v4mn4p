@@ -77,8 +77,8 @@ a {
 }
 
 .logo-img {
-  width: 96px;
-  height: 96px;
+  width: 120px;
+  height: auto;
   object-fit: contain;
 }
 
@@ -403,8 +403,8 @@ a {
   }
 
   .logo-img {
-    width: 72px;
-    height: 72px;
+    width: 120px;
+    height: auto;
   }
 
   .nav-grid {
